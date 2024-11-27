@@ -38,7 +38,7 @@ const breakLines = (string, nodes, breaks) => {
     // Last breakpoint corresponds to K&P mandatory final glue
     if (breakPoint.position === nodes.length - 1) return acc;
 
-    let line;
+    // let line;
     if (node.type === 'penalty') {
       end = prevNode.value.end;
 
